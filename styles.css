@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Open Sans,sans-serif;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 44px;
+    letter-spacing: 0;
+}
+
+h3{
+    font-size: 19px;
+    color: #121212;
+    font-weight: normal;
+}
+
+p{
+    margin: 00 0 1.25rem;
+}
+
+header{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 950px;
+    position: relative;
+}
+
+.faixa-superior{
+    background-color: #B0150B;
+    color: #c7c7c7;
+    font-size: 11px;
+    padding: 5px 0 0px 0;
+    height: 15px;
+}
+
+.cabecalho{
+    background-color: #C4170C;
+    color: #FFF;
+}
