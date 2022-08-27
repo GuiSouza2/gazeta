@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    line-height: 24px;
     font-family: Open Sans,sans-serif;
 }
 
@@ -21,11 +22,12 @@ p{
 
 header{
     text-align: center;
+    line-height: 10px;
 }
 
 .container{
     margin: auto;
-    width: 950px;
+    width: 80%;
     position: relative;
 }
 
@@ -40,4 +42,50 @@ header{
 .cabecalho{
     background-color: #C4170C;
     color: #FFF;
+}
+
+.autor{
+    color: #777777;
+    font-weight: 700;
+}
+
+.data{
+    color: #999;
+    font-weight: 300;
+}
+
+.conteudo{
+    width: 70%;
+    margin-left: 20%;
+}
+
+.publicidade{
+    width: 70%;
+    margin-left: 20%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #CCC;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+    background-color: #FFF;
+    font-size: 7px;
+  }
+  
+hr::after {
+    content: "CONTINUA DEPOIS DA PUBLICIDADE";
+    color: #999;
+    display: inline-block;
+    position: relative;
+    top: -1.25em;
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    background-color: #FFF;
+  }
+
+.area-comentario{
+    background-color: rgb(230, 230, 230);
+    padding: 5%;
 }
