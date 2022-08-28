@@ -6,83 +6,217 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gazeta, Advertorial</title>
+        <title>Página de Vendas</title>
         <link rel="stylesheet" href="styles.css">
     </head>
 
 
     <body>
         
-        <header>
-            <div class="faixa-superior">
-                <p>ADVERTORIAL</p>
-            </div>
-            <div class="cabecalho">
-                <img src="portalg9.png">
-            </div>
-        </header>
-        <div class="container">
+        <section id="header">
+            <h2>DESCONTO APLICADO - LIMITADO A UMA COMPRA POR CLIENTE</h2>
+        </section> <!-- Texto Simples -->
+
+        <section id="lead">
             
-                <h1>Por que os endócrinos estão tão entusiasmados com esse creme de aplicação local?</h1>
-                <h3>Esse avanço tecnológico pode ajudar as pessoas a se manterem em movimento sem dores no joelho. Confira nossa análise.</h2>
-                <p class="autor"><strong>Por Sandro Pedroso, G9</strong></p>
-                <p class="data">20/01/2022 - Atualizado há duas horas</p>
+            <div class="slide">
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Imagens grandes com contador e legenda -->
+                <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="médicos_discutindo_perda_de_peso.jpeg" style="width:100%">
+                </div>
             
-            <div class="conteudo">
-                <figure class="foto_corpo_materia">
-                    <a href="index.html">
-                        <img src="médicos_discutindo_perda_de_peso.jpeg">
-                    </a>
-                    <figcaption>Legenda da foto</figcaption>
-                </figure>
-                <p>Matéria</p>
-                <h2>Subtítulo</h2>
-                <p>Matéria</p>
-                <ul>
-                    <li>Lista item 1</il>
-                    <li>Lista item 2</il>
-                    <li>Lista item 3</il>
-                </ul>
-            <hr>
-            <div class="publicidade">
-                <figure>
-                    <a href="index.html">
-                        <img src="foto.PNG">
-                    </a>
-                </figure>
-                <p>ATUALIAÇÃO: Desde que o produto...</p>
+                <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="médicos_discutindo_perda_de_peso.jpeg" style="width:100%">
+                </div>
+            
+                <!-- Botão de próximo e anterior -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
             </div>
             </div>
-            <div class="area-comentario">
-                <h2>COMENTÁRIOS</h2>
-                <p class="isencao">Os comentários são de responsabilidade exclusiva de seus autores e não representam a opinião deste site. Se achar algo que viole os termos de uso, denuncie. Leia as perguntas mais frequentes para saber o que é impróprio ou ilegal.</p>
-                    <div class="comentario">
-                    <p>
-                        <span class="nome-comentario">Luiz Eduardo</span>
-                        <span class="hora-comentario">há 25 minutos</span>
-                        <p>Obrigada pela dica, lendo os comentários aqui, pelo jeito funciona mesmo o produto, vou comprar também.</p>
-                    </p>
-                    <div class="share">
-                        <p><img src="icone_curtir.png"> Curtir</p>
-                        <p><img src="icone_compartilhar.png"> Compartilhar</p>
-                    </div>
-                    </div>
-                    <div class="comentario-resposta">
-                        <p>
-                            <span class="nome-comentario">Luiz Eduardo</span>
-                            <span class="hora-comentario">Há 25 minutos</span>
-                            <p>Obrigada pela dica, lendo os comentários aqui, pelo jeito funciona mesmo o produto, vou comprar também.</p>
-                        </p>
-                        <div class="share">
-                            <p><img src="icone_curtir.png"> Curtir</p>
-                            <p><img src="icone_compartilhar.png"> Compartilhar</p>
-                        </div>
-                    </div>
-                <p>Este conteúdo não recebeu mais comentários.</p>    
+
+            <div class="conteudo-lead">
+                <div id="score">
+                    <p><img src="5_estrelas.png"> (571 avaliações) </p>
+                </div>
+                <div class="texto-lead">
+                    <h1>Power Knee Elite™</h1>
+                    <ul class="lista-de-beneficios">
+                        <li class="destaque"> Benefício 1</li>
+                        <li> Benefício 2</li>
+                        <li class="destaque"> Benefício 3</li>
+                        <li> Benefício 4 </li>
+                        <li> Benefício 5 </li>
+                    </ul>
+                <h3><img src=5_estrelas.png>Frete Grátis</h3>
+                <p><img src=5_estrelas.png>Garantia</h3>
+                </div>
             </div>
-        </div>
-        <div class="rodape">
+
+        </section> <!-- Duas Colunas -->
+
+        <section id="oferta">
+            <button type="botao">Click Me!</button>
+            <h1>A JOELHEIRA AJUDA A ALIVIAR AS DORES E RECUPERAR OS MOVIMENTOS</h1>
+
+        </section> <!-- Uma Coluna: Botão e Descrição -->
+        
+        <section id="conteudo">
+            <div class="descricao-foto">
+                <div class="descricao">
+                    <h1>AJUDA A ALIVIAR AS DORES NO JOELHO</h1>
+                    <p>Com tramas especiais para criar pressão no joelho, sustentações laterais que ajudam na estabilidade e, um inovador estabilizador de gel para proteção e apoio da patela, o Power Knee Elite™ é um grande aliado no combate às dores no joelho. </p>
+                </div>
+                <div class="foto">
+                    <figure>
+                        <img src="foto_corpo.png" alt="" style="width:100%">
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="foto-descricao">
+                <div class="foto">
+                    <figure>
+                        <img src="foto_corpo.png" alt="" style="width:100%">
+                    </figure>
+                </div>
+                <div class="descricao">
+                    <h1>AJUDA A ALIVIAR AS DORES NO JOELHO</h1>
+                    <p>Com tramas especiais para criar pressão no joelho, sustentações laterais que ajudam na estabilidade e, um inovador estabilizador de gel para proteção e apoio da patela, o Power Knee Elite™ é um grande aliado no combate às dores no joelho. </p>
+                </div>
+            </div>
+
+            <div class="descricao-foto">
+                <div class="descricao">
+                    <h1>AJUDA A ALIVIAR AS DORES NO JOELHO</h1>
+                    <p>Com tramas especiais para criar pressão no joelho, sustentações laterais que ajudam na estabilidade e, um inovador estabilizador de gel para proteção e apoio da patela, o Power Knee Elite™ é um grande aliado no combate às dores no joelho. </p>
+                </div>
+                <div class="foto">
+                    <figure>
+                        <img src="foto_corpo.png" alt="" style="width:100%">
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="foto-descricao">
+                <div class="foto">
+                    <figure>
+                        <img src="foto_corpo.png" alt="" style="width:100%">
+                    </figure>
+                </div>
+                <div class="descricao">
+                    <h1>AJUDA A ALIVIAR AS DORES NO JOELHO</h1>
+                    <p>Com tramas especiais para criar pressão no joelho, sustentações laterais que ajudam na estabilidade e, um inovador estabilizador de gel para proteção e apoio da patela, o Power Knee Elite™ é um grande aliado no combate às dores no joelho. </p>
+                </div>
+            </div>
+
+            
+            <div class="descricao-foto">
+                <div class="descricao">
+                    <h1>AJUDA A ALIVIAR AS DORES NO JOELHO</h1>
+                    <p>Com tramas especiais para criar pressão no joelho, sustentações laterais que ajudam na estabilidade e, um inovador estabilizador de gel para proteção e apoio da patela, o Power Knee Elite™ é um grande aliado no combate às dores no joelho. </p>
+                </div>
+                <div class="foto">
+                    <figure>
+                        <img src="foto_corpo.png" alt="" style="width:100%">
+                    </figure>
+                </div>
+            </div>
+
+            <img src="divisor.png">
+
+        </section> <!-- Duas Colunas -->
+
+        <section id="promocao">
+            <img class="gatilhos" src="preco_promocional_e_frete_gratis.jpg" alt="" style="width:100%">
+            <div class="promocoes">
+                <div class="promocao">
+                    <h1>Título</h1>
+                    <img class="produto" src="preco_promocional_e_frete_gratis.jpg" alt="" style="width:100%">
+                    <span class="gatilho"></span>
+                    <span class="preco"></span>
+                    <button type="checkout">Click Me!</button>
+                </div>
+                <div class="promocao">
+                    <h1>Título</h1>
+                    <img class="produto" src="preco_promocional_e_frete_gratis.jpg" alt="" style="width:100%">
+                    <span class="gatilho"></span>
+                    <span class="preco"></span>
+                    <button type="checkout">Click Me!</button>
+                </div>
+                <div class="promocao">
+                    <h1>Título</h1>
+                    <img class="produto" src="preco_promocional_e_frete_gratis.jpg" alt="" style="width:100%">
+                    <span class="gatilho"></span>
+                    <span class="preco"></span>
+                    <button type="checkout">Click Me!</button>
+                </div>
+            </div>
+        </section> <!-- Três Colunas -->
+        
+        <hr>
+
+        <section id="avaliacao">
+            
+            <h1>Avaliações De Clientes</h1>
+            <p>4,9 <img src="5_estrelas.png"></p>
+            <p>(261 avaliações)</p>
+            <p class="gatilho"><strong>97%</strong> dos nossos clientes recomendam esse produto</p>
+
+            <div class="comentario">
+                <p>
+                    <span class="nome-comentario">Luiz Eduardo</span>
+                    <span class="hora-comentario">há 25 minutos</span>
+                    <img src="5_estrelas.png">
+                    <p>Obrigada pela dica, lendo os comentários aqui, pelo jeito funciona mesmo o produto, vou comprar também.</p>
+                </p>
+
+        </section> <!-- Texto Complexo -->
+
+        <section id="selo">
+            <img src="5_estrelas.png">
+            <h1>Compra 100% segura</h1>
+            <p>Obrigada pela dica, lendo os comentários aqui, pelo jeito funciona mesmo o produto, vou comprar também.</p>
+        </section> <!-- Img + Texto Simples -->
+
+        <section id="duvidas">
+            <h1>Dúvidas Frequentes</h1>
+            <button class="accordion">Section 1</button>
+                <div class="panel">
+                <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                <p>Lorem ipsum...</p>
+                </div>
+        </section> <!-- Accordion -->
+
+        <section id="rodape">
             <div class="conteudo-rodape">
+                <div class="links">
+                    <h2>Links Úteis</h2>
+                        <a href="">Termos de Uso</a>
+                        <a href="">Política de Privacidade</a>
+                        <a href="">Contato</a>
+                </div>
                 <div class="politicas">
                     <h2>NOME DO SITE ou LOGO</h2>
                     <p>
@@ -90,21 +224,12 @@
                         
                         32.282.516/0001-62</p>
                     </div>
-                <br />    
-                <div class="links">
-                    <h2>Links Úteis</h2>
-                        <a href="">Termos de Uso</a>
-                        <a href="">Política de Privacidade</a>
-                        <a href="">Contato</a>
-                </div>
-                <br />
-                <br />
                 <div class="isencao-responsabilidade">
                     <p class="isencao">AVISO: Toda experiência é de responsabilidade do usuário.</p>
                     <p class="isencao">Isenção de responsabilidade de saúde: Este site NÃO se destina a fornecer aconselhamento médico ou substituir o aconselhamento médico e o tratamento do seu médico p...</p>
                 </div>
             </div>
-
-        </div>
+        </section> <!-- Menu Inferior, Contato de dúvidas e Copyright -->
+       
     </body>
 </html>
